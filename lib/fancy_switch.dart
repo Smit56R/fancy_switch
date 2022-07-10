@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class FancySwitch extends StatefulWidget {
   final bool value;
-  final Function onChanged;
+  final ValueChanged<bool> onChanged;
   final double height;
   final String activeModeBackgroundImage;
   final String inactiveModeBackgroundImage;
@@ -12,6 +12,7 @@ class FancySwitch extends StatefulWidget {
   final Image? activeThumbImage;
   final Color inactiveThumbColor;
   final Image? inactiveThumbImage;
+
   const FancySwitch({
     Key? key,
     required this.value,
@@ -34,7 +35,7 @@ class _FancySwitchState extends State<FancySwitch> {
   Widget build(BuildContext context) {
     const aspectRatio = (57 / 25);
     return GestureDetector(
-      onTap: () => widget.onChanged(),
+      onTap: () => widget.onChanged(!widget.value),
       child: SizedBox(
         height: widget.height,
         width: aspectRatio * widget.height,
