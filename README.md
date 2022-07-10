@@ -1,6 +1,6 @@
 A customizable toggle switch widget to add asset background images to the toggle switch.
 
-<img alt="fancy switch sample 1" src="https://github.com/Smit56R/fancy_dark_mode_toggle/blob/master/assets/images/screenshots/ss_1.gif" width="175"> <img alt="fancy switch sample 2" src="https://github.com/Smit56R/fancy_dark_mode_toggle/blob/master/assets/images/screenshots/ss_2.gif" width="175"> <img alt="fancy switch sample 3" src="https://github.com/Smit56R/fancy_dark_mode_toggle/blob/master/assets/images/screenshots/ss_3.gif" width="175"> <img alt="fancy switch sample 4" src="https://github.com/Smit56R/fancy_dark_mode_toggle/blob/master/assets/images/screenshots/ss_4.gif" width="175">
+<img alt="All fancy images" src="https://github.com/Smit56R/fancy_dark_mode_toggle/blob/master/assets/images/screenshots/all_fancy_switches.gif?raw=true" width="175">
 
 ## Features
 
