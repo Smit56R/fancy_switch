@@ -1,6 +1,6 @@
 name: fancy_switch
 description: A customizable toggle switch widget to add asset background images to the toggle switch.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Smit56R/fancy_switch
 
 environment:

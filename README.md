@@ -11,7 +11,7 @@ Use this package to give fancy background images to the switch for your app.
 - Required
 
   1. `bool value`: A boolean value that determines whether the switch is active or not.
-  2. `Function onChanged`: A callback function whenever the switch is tapped.
+  2. `ValueChanged<bool> onChanged`: A callback function called whenever the switch is tapped.
   3. `double height`: A double value that sets height of the switch.
   4. `String activeModeBackgroundImage`: A string value that contains the path of the asset background image when the switch is active.
   5. `String inactiveModeBackgroundImage`: A string value that contains the path of the asset background image when the switch is inactive.
