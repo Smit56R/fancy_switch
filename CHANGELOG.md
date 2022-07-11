@@ -6,3 +6,7 @@
 
 - Improved FancySwitch widget to be more similar to Switch widget.
 - Added example/README.md
+
+## 0.0.4
+
+- Improved example/README.md

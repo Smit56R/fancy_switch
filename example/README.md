@@ -2,7 +2,7 @@
 
 ## Using fancy_switch to toggle dark mode
 
-[Find whole project here](https://github.com/Smit56R/fancy_dark_mode_toggle)
+[Link to Github](https://github.com/Smit56R/fancy_dark_mode_toggle)
 
 ### global_provider.dart
 
@@ -14,8 +14,8 @@ class GlobalProvider with ChangeNotifier {
 
   bool get darkMode => _darkMode;
 
-  void toggleDarkMode() {
-    _darkMode = !_darkMode;
+  void toggleDarkMode(bool value) {
+    _darkMode = value;
     notifyListeners();
   }
 }

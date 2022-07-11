@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Usage
 
-[FancySwitch for switching between dark mode and light mode](https://github.com/Smit56R/fancy_dark_mode_toggle)
+[Switching between dark mode and light mode using FancySwitch](https://github.com/Smit56R/fancy_dark_mode_toggle)
 
 ## Support the pacakge (optional)
 
